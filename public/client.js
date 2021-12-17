@@ -1,9 +1,9 @@
-import * as THREE from 'three'
+import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/108/three.module.js'
 // import { GLTFLoader } from '/jsm/loaders/GLTFLoader.js'
 
 // import * as THREE from '/build/three.module.js'
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
+import { OrbitControls } from 'https://threejs.org/examples/jsm/controls/OrbitControls.js'
+import { GLTFLoader } from 'https://threejs.org/examples/jsm/loaders/GLTFLoader'
 // import Stats from 'three/examples/jsm/libs/stats.module'
 // import { GUI } from 'three/examples/jsm/libs/dat.gui.module'
 
