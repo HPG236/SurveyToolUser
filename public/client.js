@@ -3,7 +3,7 @@ import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/108/thre
 
 // import * as THREE from '/build/three.module.js'
 import { OrbitControls } from 'https://threejs.org/examples/jsm/controls/OrbitControls.js'
-import { GLTFLoader } from 'https://threejs.org/examples/jsm/loaders/GLTFLoader'
+import { GLTFLoader } from 'https://threejs.org/examples/jsm/loaders/GLTFLoader.js'
 // import Stats from 'three/examples/jsm/libs/stats.module'
 // import { GUI } from 'three/examples/jsm/libs/dat.gui.module'
 
