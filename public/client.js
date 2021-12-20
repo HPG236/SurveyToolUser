@@ -533,7 +533,7 @@ async function main() {
     // glasses = await loadModel( "web/model/mouth_rig_add_shapekey.glb" );
     // glasses = await loadModel( "web/model/mouth_rig_add_shapekey2.glb" );
     // glasses = await loadModel( "/model/mouth_rig_add_shapekey2.glb" );
-    glasses = await loadModel( "/model/mouth_rig_add_shapekey3.glb" );
+    glasses = await loadModel( "/mouth_rig_add_shapekey3.glb" );
 
 
     // glasses = await loadModel( "web/model/mouth_rig.glb" );
