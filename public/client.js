@@ -467,7 +467,7 @@ async function trackFace() {
 }
 
 async function main() {
-    await setupWebcam();
+    await setupWebcam().catch(e => console.log('Error: '));
     const video = document.getElementById( "webcam" );
     video.play();
     let videoWidth = video.videoWidth;
@@ -493,7 +493,7 @@ async function main() {
     // Load Face Landmarks Detection
     model = await faceLandmarksDetection.load(
         faceLandmarksDetection.SupportedPackages.mediapipeFacemesh
-    );
+    ).catch(e => console.log('Error: '));
 
     renderer = new THREE.WebGLRenderer({
         canvas: document.getElementById( "overlay" ),
@@ -533,7 +533,7 @@ async function main() {
     // glasses = await loadModel( "web/model/mouth_rig_add_shapekey.glb" );
     // glasses = await loadModel( "web/model/mouth_rig_add_shapekey2.glb" );
     // glasses = await loadModel( "/model/mouth_rig_add_shapekey2.glb" );
-    glasses = await loadModel( "/mouth_rig_add_shapekey3.glb" );
+    glasses = await loadModel( "/mouth_rig_add_shapekey3.glb" ).catch(e => console.log('Error: '));
 
 
     // glasses = await loadModel( "web/model/mouth_rig.glb" );
