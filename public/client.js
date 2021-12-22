@@ -276,7 +276,7 @@ async function trackFace() {
         input: video,
         returnTensors: false,
         flipHorizontal: false,
-    });
+    }).catch(e => console.log('Error: '));
     // console.log(faces)
 
     // for(let x=-30;x<=50;x++) {
